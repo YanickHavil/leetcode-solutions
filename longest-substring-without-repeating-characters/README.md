@@ -36,6 +36,13 @@ Most of the time was spent figuring out how to handle duplicate characters corre
 
 ---
 
+## Notes
+
+I did not use ChatGPT or any LLM to solve this challenge.  
+I wanted to test and improve my own reasoning and string manipulation skills, even if the approach wasn’t optimal at first.
+
+---
+
 ## Complexity
 
 - **Time Complexity:** O(n²) in the worst case, due to repeated string operations like `Contains`, `IndexOf`, `Remove`, and `+=` which are all linear in the substring size.
